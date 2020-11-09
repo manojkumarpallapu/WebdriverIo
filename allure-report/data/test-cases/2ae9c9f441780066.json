@@ -1,0 +1,110 @@
+{
+  "uid" : "2ae9c9f441780066",
+  "name" : "should play the video of Alex",
+  "fullName" : "volvocars.com page.should play the video of Alex",
+  "historyId" : "ef482dbeef420227b69ff326c8f99fd6",
+  "time" : {
+    "start" : 1604881594913,
+    "stop" : 1604881602044,
+    "duration" : 7131
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1604881594914,
+        "stop" : 1604881594934,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ee36b5b44a4cdc3e",
+        "name" : "Request",
+        "source" : "ee36b5b44a4cdc3e.json",
+        "type" : "application/json",
+        "size" : 114
+      }, {
+        "uid" : "251ae9a4712e5e82",
+        "name" : "Response",
+        "source" : "251ae9a4712e5e82.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element/08f0712b-727f-4d2d-92b9-b9f5f8a3b92c/click",
+      "time" : {
+        "start" : 1604881594936,
+        "stop" : 1604881595042,
+        "duration" : 106
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "volvocars.com page"
+  }, {
+    "name" : "testClass",
+    "value" : "volvocars.com page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should play the video of Alex"
+  }, {
+    "name" : "package",
+    "value" : "volvocars.com page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-86.0.4240.111"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2ae9c9f441780066.json",
+  "parameterValues" : [ "chrome-86.0.4240.111" ]
+}

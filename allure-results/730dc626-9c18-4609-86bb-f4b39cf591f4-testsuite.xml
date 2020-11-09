@@ -1,0 +1,308 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1604881531029' stop='1604881542632'>
+    <name>volvocars.com page</name>
+    <title>volvocars.com page</title>
+    <test-cases>
+        <test-case start='1604881531030' status='passed' stop='1604881540862'>
+            <name>should have the right title</name>
+            <title>should have the right title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-82.0.2'/>
+            </parameters>
+            <steps>
+                <step start='1604881531043' status='passed' stop='1604881540741'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='846a0229-0e45-4471-8694-b573039046d0-attachment.json' type='application/json' size='73'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1604881540747' status='passed' stop='1604881540855'>
+                    <name>GET /session/:sessionId/title</name>
+                    <title>GET /session/:sessionId/title</title>
+                    <attachments>
+                        <attachment title='Response' source='1649371c-81b1-4c23-9219-132022de3afb-attachment.json' type='application/json' size='29'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1604881540863' status='broken' stop='1604881541561'>
+            <name>should play the video of main</name>
+            <title>should play the video of main</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-82.0.2'/>
+            </parameters>
+            <steps>
+                <step start='1604881540866' status='passed' stop='1604881541122'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='ecac60a1-0c8e-4b1e-aff5-43ac2037791a-attachment.json' type='application/json' size='101'/>
+                        <attachment title='Response' source='0cba0c7e-fe23-4245-bc13-dd993aee4a48-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1604881541142' status='broken' stop='1604881541561'>
+                    <name>POST /session/:sessionId/element/efaf77de-3dfc-4b73-9b1a-7fc2d5751088/click</name>
+                    <title>POST /session/:sessionId/element/efaf77de-3dfc-4b73-9b1a-7fc2d5751088/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Element &lt;button class="aj ak bf bi bj bl bm bn bw bx by dn go gp gq gr gs gt gu gv gw gx gy gz ha hb hc hd he hf hg hh hi hj hk hl hm hn ho hp o" type="button"> is not clickable at point (631,582) because another element &lt;div class="optanon-alert-box-bottom-top"> obscures it</message>
+                <stack-trace>element click intercepted: Element &lt;button class="aj ak bf bi bj bl bm bn bw bx by dn go gp gq gr gs gt gu gv gw gx gy gz ha hb hc hd he hf hg hh hi hj hk hl hm hn ho hp o" type="button"> is not clickable at point (631,582) because another element &lt;div class="optanon-alert-box-bottom-top"> obscures it
+                    at Object.getErrorFromResponseBody (C:\Users\MPallapu\webdriverio-test\node_modules\webdriver\build\utils.js:94:12)
+                    at WebDriverRequest._request (C:\Users\MPallapu\webdriverio-test\node_modules\webdriver\build\request.js:133:31)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\MPallapu\webdriverio-test\node_modules\webdriverio\build\middlewares.js:17:32)
+                    at async Element.runCommandWithHooks (C:\Users\MPallapu\webdriverio-test\node_modules\@wdio\sync\build\wrapCommand.js:70:25)
+                    at Element.runCommandWithHooks (C:\Users\MPallapu\webdriverio-test\node_modules\@wdio\sync\build\wrapCommand.js:65:24)
+                    at Element.wrapCommandFn (C:\Users\MPallapu\webdriverio-test\node_modules\@wdio\sync\build\wrapCommand.js:44:44)
+                    at Element.elementErrorHandlerCallback (C:\Users\MPallapu\webdriverio-test\node_modules\webdriverio\build\middlewares.js:34:12)
+                    at Context.&lt;anonymous> (C:\Users\MPallapu\webdriverio-test\test\specs\Titlecheck.js:12:19)
+                    at Context.executeSync (C:\Users\MPallapu\webdriverio-test\node_modules\@wdio\sync\build\index.js:25:22)
+                    at C:\Users\MPallapu\webdriverio-test\node_modules\@wdio\sync\build\index.js:46:68</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1604881541562' status='broken' stop='1604881541908'>
+            <name>should play the video of amy</name>
+            <title>should play the video of amy</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-82.0.2'/>
+            </parameters>
+            <steps>
+                <step start='1604881541564' status='passed' stop='1604881541632'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='0714ac91-161c-4660-a4e9-865c1d9dc5bb-attachment.json' type='application/json' size='114'/>
+                        <attachment title='Response' source='4886ab7c-8150-4ffe-9da7-bb67b4dbfcdc-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1604881541640' status='broken' stop='1604881541908'>
+                    <name>POST /session/:sessionId/element/a14ec24f-b181-4b03-a3b9-179b57d386d2/click</name>
+                    <title>POST /session/:sessionId/element/a14ec24f-b181-4b03-a3b9-179b57d386d2/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Element &lt;button class="ak b bf bg bh bi bj bk bl bm bn c gl gn ky kz la lb lc" type="button"> is not clickable at point (562,581) because another element &lt;div class="optanon-alert-box-bottom-top"> obscures it</message>
+                <stack-trace>element click intercepted: Element &lt;button class="ak b bf bg bh bi bj bk bl bm bn c gl gn ky kz la lb lc" type="button"> is not clickable at point (562,581) because another element &lt;div class="optanon-alert-box-bottom-top"> obscures it
+                    at Object.getErrorFromResponseBody (C:\Users\MPallapu\webdriverio-test\node_modules\webdriver\build\utils.js:94:12)
+                    at WebDriverRequest._request (C:\Users\MPallapu\webdriverio-test\node_modules\webdriver\build\request.js:133:31)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\MPallapu\webdriverio-test\node_modules\webdriverio\build\middlewares.js:17:32)
+                    at async Element.runCommandWithHooks (C:\Users\MPallapu\webdriverio-test\node_modules\@wdio\sync\build\wrapCommand.js:70:25)
+                    at Element.runCommandWithHooks (C:\Users\MPallapu\webdriverio-test\node_modules\@wdio\sync\build\wrapCommand.js:65:24)
+                    at Element.wrapCommandFn (C:\Users\MPallapu\webdriverio-test\node_modules\@wdio\sync\build\wrapCommand.js:44:44)
+                    at Element.elementErrorHandlerCallback (C:\Users\MPallapu\webdriverio-test\node_modules\webdriverio\build\middlewares.js:34:12)
+                    at Context.&lt;anonymous> (C:\Users\MPallapu\webdriverio-test\test\specs\Titlecheck.js:20:22)
+                    at Context.executeSync (C:\Users\MPallapu\webdriverio-test\node_modules\@wdio\sync\build\index.js:25:22)
+                    at C:\Users\MPallapu\webdriverio-test\node_modules\@wdio\sync\build\index.js:46:68</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1604881541908' status='broken' stop='1604881542077'>
+            <name>should play the video of summer</name>
+            <title>should play the video of summer</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-82.0.2'/>
+            </parameters>
+            <steps>
+                <step start='1604881541909' status='passed' stop='1604881541941'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='4af3b922-126f-4873-8dd7-1d9b395a5e4a-attachment.json' type='application/json' size='114'/>
+                        <attachment title='Response' source='621b8018-06fb-4eb2-aca0-492aac317073-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1604881541945' status='broken' stop='1604881542077'>
+                    <name>POST /session/:sessionId/element/6d19c34a-bc0e-4887-b1c8-1bd37a6c8b72/click</name>
+                    <title>POST /session/:sessionId/element/6d19c34a-bc0e-4887-b1c8-1bd37a6c8b72/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Element &lt;button class="ak b bf bg bh bi bj bk bl bm bn c gl gn ky kz la lb lc" type="button"> is not clickable at point (993,581) because another element &lt;div class="optanon-alert-box-bottom-top"> obscures it</message>
+                <stack-trace>element click intercepted: Element &lt;button class="ak b bf bg bh bi bj bk bl bm bn c gl gn ky kz la lb lc" type="button"> is not clickable at point (993,581) because another element &lt;div class="optanon-alert-box-bottom-top"> obscures it
+                    at Object.getErrorFromResponseBody (C:\Users\MPallapu\webdriverio-test\node_modules\webdriver\build\utils.js:94:12)
+                    at WebDriverRequest._request (C:\Users\MPallapu\webdriverio-test\node_modules\webdriver\build\request.js:133:31)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\MPallapu\webdriverio-test\node_modules\webdriverio\build\middlewares.js:17:32)
+                    at async Element.runCommandWithHooks (C:\Users\MPallapu\webdriverio-test\node_modules\@wdio\sync\build\wrapCommand.js:70:25)
+                    at Element.runCommandWithHooks (C:\Users\MPallapu\webdriverio-test\node_modules\@wdio\sync\build\wrapCommand.js:65:24)
+                    at Element.wrapCommandFn (C:\Users\MPallapu\webdriverio-test\node_modules\@wdio\sync\build\wrapCommand.js:44:44)
+                    at Element.elementErrorHandlerCallback (C:\Users\MPallapu\webdriverio-test\node_modules\webdriverio\build\middlewares.js:34:12)
+                    at Context.&lt;anonymous> (C:\Users\MPallapu\webdriverio-test\test\specs\Titlecheck.js:29:25)
+                    at Context.executeSync (C:\Users\MPallapu\webdriverio-test\node_modules\@wdio\sync\build\index.js:25:22)
+                    at C:\Users\MPallapu\webdriverio-test\node_modules\@wdio\sync\build\index.js:46:68</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1604881542078' status='broken' stop='1604881542326'>
+            <name>should play the video of Linda</name>
+            <title>should play the video of Linda</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-82.0.2'/>
+            </parameters>
+            <steps>
+                <step start='1604881542079' status='passed' stop='1604881542107'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='7e7a53a4-f202-4b0b-a163-95599cb90cd7-attachment.json' type='application/json' size='114'/>
+                        <attachment title='Response' source='a87263e6-2522-4285-8ceb-7b984db0709c-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1604881542111' status='broken' stop='1604881542326'>
+                    <name>POST /session/:sessionId/element/2b82e84e-d7c7-490d-9d37-2dcf7a3590e8/click</name>
+                    <title>POST /session/:sessionId/element/2b82e84e-d7c7-490d-9d37-2dcf7a3590e8/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Element &lt;button class="ak b bf bg bh bi bj bk bl bm bn c gl gn ky kz la lb lc" type="button"> is not clickable at point (562,581) because another element &lt;div class="optanon-alert-box-bottom-top"> obscures it</message>
+                <stack-trace>element click intercepted: Element &lt;button class="ak b bf bg bh bi bj bk bl bm bn c gl gn ky kz la lb lc" type="button"> is not clickable at point (562,581) because another element &lt;div class="optanon-alert-box-bottom-top"> obscures it
+                    at Object.getErrorFromResponseBody (C:\Users\MPallapu\webdriverio-test\node_modules\webdriver\build\utils.js:94:12)
+                    at WebDriverRequest._request (C:\Users\MPallapu\webdriverio-test\node_modules\webdriver\build\request.js:133:31)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\MPallapu\webdriverio-test\node_modules\webdriverio\build\middlewares.js:17:32)
+                    at async Element.runCommandWithHooks (C:\Users\MPallapu\webdriverio-test\node_modules\@wdio\sync\build\wrapCommand.js:70:25)
+                    at Element.runCommandWithHooks (C:\Users\MPallapu\webdriverio-test\node_modules\@wdio\sync\build\wrapCommand.js:65:24)
+                    at Element.wrapCommandFn (C:\Users\MPallapu\webdriverio-test\node_modules\@wdio\sync\build\wrapCommand.js:44:44)
+                    at Element.elementErrorHandlerCallback (C:\Users\MPallapu\webdriverio-test\node_modules\webdriverio\build\middlewares.js:34:12)
+                    at Context.&lt;anonymous> (C:\Users\MPallapu\webdriverio-test\test\specs\Titlecheck.js:37:24)
+                    at Context.executeSync (C:\Users\MPallapu\webdriverio-test\node_modules\@wdio\sync\build\index.js:25:22)
+                    at C:\Users\MPallapu\webdriverio-test\node_modules\@wdio\sync\build\index.js:46:68</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1604881542326' status='broken' stop='1604881542505'>
+            <name>should play the video of Alex</name>
+            <title>should play the video of Alex</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-82.0.2'/>
+            </parameters>
+            <steps>
+                <step start='1604881542327' status='passed' stop='1604881542373'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='0071e563-e804-4db8-9b3a-857e7dfeaf06-attachment.json' type='application/json' size='114'/>
+                        <attachment title='Response' source='e50ab3e3-3775-489e-967b-9d0a9eb227f0-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1604881542378' status='broken' stop='1604881542505'>
+                    <name>POST /session/:sessionId/element/8c0e6b1e-366e-4a59-a42c-2f7be5d2bd4f/click</name>
+                    <title>POST /session/:sessionId/element/8c0e6b1e-366e-4a59-a42c-2f7be5d2bd4f/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Element &lt;button class="ak b bf bg bh bi bj bk bl bm bn c gl gn ky kz la lb lc" type="button"> is not clickable at point (993,581) because another element &lt;div class="optanon-alert-box-bottom-top"> obscures it</message>
+                <stack-trace>element click intercepted: Element &lt;button class="ak b bf bg bh bi bj bk bl bm bn c gl gn ky kz la lb lc" type="button"> is not clickable at point (993,581) because another element &lt;div class="optanon-alert-box-bottom-top"> obscures it
+                    at Object.getErrorFromResponseBody (C:\Users\MPallapu\webdriverio-test\node_modules\webdriver\build\utils.js:94:12)
+                    at WebDriverRequest._request (C:\Users\MPallapu\webdriverio-test\node_modules\webdriver\build\request.js:133:31)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\MPallapu\webdriverio-test\node_modules\webdriverio\build\middlewares.js:17:32)
+                    at async Element.runCommandWithHooks (C:\Users\MPallapu\webdriverio-test\node_modules\@wdio\sync\build\wrapCommand.js:70:25)
+                    at Element.runCommandWithHooks (C:\Users\MPallapu\webdriverio-test\node_modules\@wdio\sync\build\wrapCommand.js:65:24)
+                    at Element.wrapCommandFn (C:\Users\MPallapu\webdriverio-test\node_modules\@wdio\sync\build\wrapCommand.js:44:44)
+                    at Element.elementErrorHandlerCallback (C:\Users\MPallapu\webdriverio-test\node_modules\webdriverio\build\middlewares.js:34:12)
+                    at Context.&lt;anonymous> (C:\Users\MPallapu\webdriverio-test\test\specs\Titlecheck.js:46:23)
+                    at Context.executeSync (C:\Users\MPallapu\webdriverio-test\node_modules\@wdio\sync\build\index.js:25:22)
+                    at C:\Users\MPallapu\webdriverio-test\node_modules\@wdio\sync\build\index.js:46:68</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1604881542505' status='broken' stop='1604881542630'>
+            <name>should click on the top pane</name>
+            <title>should click on the top pane</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-82.0.2'/>
+            </parameters>
+            <steps>
+                <step start='1604881542506' status='passed' stop='1604881542531'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='c224ad66-6bcc-417a-9a1e-319e4bf38e66-attachment.json' type='application/json' size='91'/>
+                        <attachment title='Response' source='a998d7d4-1837-41e8-b4d7-418cad98656c-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1604881542537' status='broken' stop='1604881542630'>
+                    <name>POST /session/:sessionId/element/1bff2a26-b2be-48a1-9366-8780492a397c/click</name>
+                    <title>POST /session/:sessionId/element/1bff2a26-b2be-48a1-9366-8780492a397c/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Element &lt;button class="aj ak be bf bg bh bi bj bk bl bm bn bo ct db dc dd de df dg dh di dj dk dl dm q v SiteNav_topBarButton" type="button"> is not clickable at point (1226,32) because another element &lt;div class="optanon-alert-box-bottom-top"> obscures it</message>
+                <stack-trace>element click intercepted: Element &lt;button class="aj ak be bf bg bh bi bj bk bl bm bn bo ct db dc dd de df dg dh di dj dk dl dm q v SiteNav_topBarButton" type="button"> is not clickable at point (1226,32) because another element &lt;div class="optanon-alert-box-bottom-top"> obscures it
+                    at Object.getErrorFromResponseBody (C:\Users\MPallapu\webdriverio-test\node_modules\webdriver\build\utils.js:94:12)
+                    at WebDriverRequest._request (C:\Users\MPallapu\webdriverio-test\node_modules\webdriver\build\request.js:133:31)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\MPallapu\webdriverio-test\node_modules\webdriverio\build\middlewares.js:17:32)
+                    at async Element.runCommandWithHooks (C:\Users\MPallapu\webdriverio-test\node_modules\@wdio\sync\build\wrapCommand.js:70:25)
+                    at Element.runCommandWithHooks (C:\Users\MPallapu\webdriverio-test\node_modules\@wdio\sync\build\wrapCommand.js:65:24)
+                    at Element.wrapCommandFn (C:\Users\MPallapu\webdriverio-test\node_modules\@wdio\sync\build\wrapCommand.js:44:44)
+                    at Element.elementErrorHandlerCallback (C:\Users\MPallapu\webdriverio-test\node_modules\webdriverio\build\middlewares.js:34:12)
+                    at Context.&lt;anonymous> (C:\Users\MPallapu\webdriverio-test\test\specs\Titlecheck.js:55:17)
+                    at Context.executeSync (C:\Users\MPallapu\webdriverio-test\node_modules\@wdio\sync\build\index.js:25:22)
+                    at C:\Users\MPallapu\webdriverio-test\node_modules\@wdio\sync\build\index.js:46:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

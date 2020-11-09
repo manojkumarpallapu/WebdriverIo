@@ -1,0 +1,110 @@
+{
+  "uid" : "eddaaffee2906443",
+  "name" : "should play the video of summer",
+  "fullName" : "volvocars.com page.should play the video of summer",
+  "historyId" : "544dd51b213172476c2c7a1faa0488bf",
+  "time" : {
+    "start" : 1604881580483,
+    "stop" : 1604881587654,
+    "duration" : 7171
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1604881580484,
+        "stop" : 1604881580511,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1434409b89376bc8",
+        "name" : "Request",
+        "source" : "1434409b89376bc8.json",
+        "type" : "application/json",
+        "size" : 114
+      }, {
+        "uid" : "fec95ea2cddd36a7",
+        "name" : "Response",
+        "source" : "fec95ea2cddd36a7.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element/edf3a01c-a5c1-48cd-9663-b37d4af29b72/click",
+      "time" : {
+        "start" : 1604881580513,
+        "stop" : 1604881580653,
+        "duration" : 140
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "volvocars.com page"
+  }, {
+    "name" : "testClass",
+    "value" : "volvocars.com page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should play the video of summer"
+  }, {
+    "name" : "package",
+    "value" : "volvocars.com page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-86.0.4240.111"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "eddaaffee2906443.json",
+  "parameterValues" : [ "chrome-86.0.4240.111" ]
+}

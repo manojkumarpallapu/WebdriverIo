@@ -1,0 +1,110 @@
+{
+  "uid" : "63887668fbeb03fd",
+  "name" : "should play the video of Linda",
+  "fullName" : "volvocars.com page.should play the video of Linda",
+  "historyId" : "3d25b0aadeaf52f17bca4a527813681b",
+  "time" : {
+    "start" : 1604881587654,
+    "stop" : 1604881594913,
+    "duration" : 7259
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1604881587656,
+        "stop" : 1604881587690,
+        "duration" : 34
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c0a1b5c50f1e9e84",
+        "name" : "Request",
+        "source" : "c0a1b5c50f1e9e84.json",
+        "type" : "application/json",
+        "size" : 114
+      }, {
+        "uid" : "9d0a3ae936a632ef",
+        "name" : "Response",
+        "source" : "9d0a3ae936a632ef.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element/cce730cd-e8c1-42bb-92f7-e1196f4f37ae/click",
+      "time" : {
+        "start" : 1604881587693,
+        "stop" : 1604881587912,
+        "duration" : 219
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "volvocars.com page"
+  }, {
+    "name" : "testClass",
+    "value" : "volvocars.com page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should play the video of Linda"
+  }, {
+    "name" : "package",
+    "value" : "volvocars.com page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-86.0.4240.111"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "63887668fbeb03fd.json",
+  "parameterValues" : [ "chrome-86.0.4240.111" ]
+}

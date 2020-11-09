@@ -1,0 +1,143 @@
+{
+  "uid" : "8ac113acc0cf4983",
+  "name" : "\"before all\" hook for \"getting $ performance\"",
+  "fullName" : "performance.\"before all\" hook for \"getting $ performance\"",
+  "historyId" : "fdf3fcd0d400404137cbc06cc55e5c14",
+  "time" : {
+    "start" : 1604881524755,
+    "stop" : 1604881531937,
+    "duration" : 7182
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1604881524761,
+        "stop" : 1604881528503,
+        "duration" : 3742
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2846c56f9979d342",
+        "name" : "Request",
+        "source" : "2846c56f9979d342.json",
+        "type" : "application/json",
+        "size" : 73
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1604881528506,
+        "stop" : 1604881528775,
+        "duration" : 269
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f47009f7fa4ed2d2",
+        "name" : "Request",
+        "source" : "f47009f7fa4ed2d2.json",
+        "type" : "application/json",
+        "size" : 48
+      }, {
+        "uid" : "156f5c09d119071b",
+        "name" : "Response",
+        "source" : "156f5c09d119071b.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1604881528789,
+        "stop" : 1604881528917,
+        "duration" : 128
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d5c55b7842dca8f4",
+        "name" : "Request",
+        "source" : "d5c55b7842dca8f4.json",
+        "type" : "application/json",
+        "size" : 48
+      }, {
+        "uid" : "9a3c5c7c672b2c06",
+        "name" : "Response",
+        "source" : "9a3c5c7c672b2c06.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "performance"
+  }, {
+    "name" : "testClass",
+    "value" : "performance"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook for \"getting $ performance\""
+  }, {
+    "name" : "package",
+    "value" : "performance"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-86.0.4240.111"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8ac113acc0cf4983.json",
+  "parameterValues" : [ "chrome-86.0.4240.111" ]
+}

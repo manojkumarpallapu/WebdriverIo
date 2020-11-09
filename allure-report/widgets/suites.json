@@ -1,0 +1,26 @@
+{
+  "total" : 2,
+  "items" : [ {
+    "uid" : "27fa5bac6f9522591bc34d8a8ee6f8e7",
+    "name" : "volvocars.com page",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 6,
+      "skipped" : 0,
+      "passed" : 8,
+      "unknown" : 0,
+      "total" : 14
+    }
+  }, {
+    "uid" : "b87b8b3ac610c70a5945baf1dd2538cd",
+    "name" : "performance",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  } ]
+}

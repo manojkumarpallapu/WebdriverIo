@@ -1,0 +1,137 @@
+{
+  "uid" : "2801bc042fa4dcfd",
+  "name" : "should click on the top pane",
+  "fullName" : "volvocars.com page.should click on the top pane",
+  "historyId" : "767b78829afb63341f2b55f6b09adc23",
+  "time" : {
+    "start" : 1604881602044,
+    "stop" : 1604881606208,
+    "duration" : 4164
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1604881602045,
+        "stop" : 1604881602067,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1a56651e642477d7",
+        "name" : "Request",
+        "source" : "1a56651e642477d7.json",
+        "type" : "application/json",
+        "size" : 91
+      }, {
+        "uid" : "2a54b026f6e960ad",
+        "name" : "Response",
+        "source" : "2a54b026f6e960ad.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element/212142ad-04fb-4e10-8b54-bfe802d94021/click",
+      "time" : {
+        "start" : 1604881602070,
+        "stop" : 1604881602185,
+        "duration" : 115
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1604881604186,
+        "stop" : 1604881604204,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "72264f16bc476788",
+        "name" : "Request",
+        "source" : "72264f16bc476788.json",
+        "type" : "application/json",
+        "size" : 83
+      }, {
+        "uid" : "bfdfd5473b3ef6f2",
+        "name" : "Response",
+        "source" : "bfdfd5473b3ef6f2.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "volvocars.com page"
+  }, {
+    "name" : "testClass",
+    "value" : "volvocars.com page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should click on the top pane"
+  }, {
+    "name" : "package",
+    "value" : "volvocars.com page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-86.0.4240.111"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2801bc042fa4dcfd.json",
+  "parameterValues" : [ "chrome-86.0.4240.111" ]
+}

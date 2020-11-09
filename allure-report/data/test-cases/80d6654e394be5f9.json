@@ -1,0 +1,119 @@
+{
+  "uid" : "80d6654e394be5f9",
+  "name" : "should play the video of Linda",
+  "fullName" : "volvocars.com page.should play the video of Linda",
+  "historyId" : "fbfaa4e22f3142cefd39662482d4efe2",
+  "time" : {
+    "start" : 1604881542078,
+    "stop" : 1604881542326,
+    "duration" : 248
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Element <button class=\"ak b bf bg bh bi bj bk bl bm bn c gl gn ky kz la lb lc\" type=\"button\"> is not clickable at point (562,581) because another element <div class=\"optanon-alert-box-bottom-top\"> obscures it",
+  "statusTrace" : "element click intercepted: Element <button class=\"ak b bf bg bh bi bj bk bl bm bn c gl gn ky kz la lb lc\" type=\"button\"> is not clickable at point (562,581) because another element <div class=\"optanon-alert-box-bottom-top\"> obscures it\n                    at Object.getErrorFromResponseBody (C:\\Users\\MPallapu\\webdriverio-test\\node_modules\\webdriver\\build\\utils.js:94:12)\n                    at WebDriverRequest._request (C:\\Users\\MPallapu\\webdriverio-test\\node_modules\\webdriver\\build\\request.js:133:31)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\MPallapu\\webdriverio-test\\node_modules\\webdriverio\\build\\middlewares.js:17:32)\n                    at async Element.runCommandWithHooks (C:\\Users\\MPallapu\\webdriverio-test\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:70:25)\n                    at Element.runCommandWithHooks (C:\\Users\\MPallapu\\webdriverio-test\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:65:24)\n                    at Element.wrapCommandFn (C:\\Users\\MPallapu\\webdriverio-test\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:44:44)\n                    at Element.elementErrorHandlerCallback (C:\\Users\\MPallapu\\webdriverio-test\\node_modules\\webdriverio\\build\\middlewares.js:34:12)\n                    at Context.<anonymous> (C:\\Users\\MPallapu\\webdriverio-test\\test\\specs\\Titlecheck.js:37:24)\n                    at Context.executeSync (C:\\Users\\MPallapu\\webdriverio-test\\node_modules\\@wdio\\sync\\build\\index.js:25:22)\n                    at C:\\Users\\MPallapu\\webdriverio-test\\node_modules\\@wdio\\sync\\build\\index.js:46:68",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Element <button class=\"ak b bf bg bh bi bj bk bl bm bn c gl gn ky kz la lb lc\" type=\"button\"> is not clickable at point (562,581) because another element <div class=\"optanon-alert-box-bottom-top\"> obscures it",
+    "statusTrace" : "element click intercepted: Element <button class=\"ak b bf bg bh bi bj bk bl bm bn c gl gn ky kz la lb lc\" type=\"button\"> is not clickable at point (562,581) because another element <div class=\"optanon-alert-box-bottom-top\"> obscures it\n                    at Object.getErrorFromResponseBody (C:\\Users\\MPallapu\\webdriverio-test\\node_modules\\webdriver\\build\\utils.js:94:12)\n                    at WebDriverRequest._request (C:\\Users\\MPallapu\\webdriverio-test\\node_modules\\webdriver\\build\\request.js:133:31)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\MPallapu\\webdriverio-test\\node_modules\\webdriverio\\build\\middlewares.js:17:32)\n                    at async Element.runCommandWithHooks (C:\\Users\\MPallapu\\webdriverio-test\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:70:25)\n                    at Element.runCommandWithHooks (C:\\Users\\MPallapu\\webdriverio-test\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:65:24)\n                    at Element.wrapCommandFn (C:\\Users\\MPallapu\\webdriverio-test\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:44:44)\n                    at Element.elementErrorHandlerCallback (C:\\Users\\MPallapu\\webdriverio-test\\node_modules\\webdriverio\\build\\middlewares.js:34:12)\n                    at Context.<anonymous> (C:\\Users\\MPallapu\\webdriverio-test\\test\\specs\\Titlecheck.js:37:24)\n                    at Context.executeSync (C:\\Users\\MPallapu\\webdriverio-test\\node_modules\\@wdio\\sync\\build\\index.js:25:22)\n                    at C:\\Users\\MPallapu\\webdriverio-test\\node_modules\\@wdio\\sync\\build\\index.js:46:68",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1604881542079,
+        "stop" : 1604881542107,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "34ba4afdc6463e01",
+        "name" : "Request",
+        "source" : "34ba4afdc6463e01.json",
+        "type" : "application/json",
+        "size" : 114
+      }, {
+        "uid" : "907d71819909faed",
+        "name" : "Response",
+        "source" : "907d71819909faed.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element/2b82e84e-d7c7-490d-9d37-2dcf7a3590e8/click",
+      "time" : {
+        "start" : 1604881542111,
+        "stop" : 1604881542326,
+        "duration" : 215
+      },
+      "status" : "broken",
+      "statusMessage" : "element click intercepted: Element <button class=\"ak b bf bg bh bi bj bk bl bm bn c gl gn ky kz la lb lc\" type=\"button\"> is not clickable at point (562,581) because another element <div class=\"optanon-alert-box-bottom-top\"> obscures it\n                    at Object.getErrorFromResponseBody (C:\\Users\\MPallapu\\webdriverio-test\\node_modules\\webdriver\\build\\utils.js:94:12)\n                    at WebDriverRequest._request (C:\\Users\\MPallapu\\webdriverio-test\\node_modules\\webdriver\\build\\request.js:133:31)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\MPallapu\\webdriverio-test\\node_modules\\webdriverio\\build\\middlewares.js:17:32)\n                    at async Element.runCommandWithHooks (C:\\Users\\MPallapu\\webdriverio-test\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:70:25)\n                    at Element.runCommandWithHooks (C:\\Users\\MPallapu\\webdriverio-test\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:65:24)\n                    at Element.wrapCommandFn (C:\\Users\\MPallapu\\webdriverio-test\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:44:44)\n                    at Element.elementErrorHandlerCallback (C:\\Users\\MPallapu\\webdriverio-test\\node_modules\\webdriverio\\build\\middlewares.js:34:12)\n                    at Context.<anonymous> (C:\\Users\\MPallapu\\webdriverio-test\\test\\specs\\Titlecheck.js:37:24)\n                    at Context.executeSync (C:\\Users\\MPallapu\\webdriverio-test\\node_modules\\@wdio\\sync\\build\\index.js:25:22)\n                    at C:\\Users\\MPallapu\\webdriverio-test\\node_modules\\@wdio\\sync\\build\\index.js:46:68",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-3"
+  }, {
+    "name" : "suite",
+    "value" : "volvocars.com page"
+  }, {
+    "name" : "testClass",
+    "value" : "volvocars.com page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should play the video of Linda"
+  }, {
+    "name" : "package",
+    "value" : "volvocars.com page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-82.0.2"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "80d6654e394be5f9.json",
+  "parameterValues" : [ "firefox-82.0.2" ]
+}

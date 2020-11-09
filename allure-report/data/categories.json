@@ -1,0 +1,103 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Element <button class=\"aj ak bf bi bj bl bm bn bw bx by dn go gp gq gr gs gt gu gv gw gx gy gz ha hb hc hd he hf hg hh hi hj hk hl hm hn ho hp o\" type=\"button\"> is not clickable at point (631,582) because another element <div class=\"optanon-alert-box-bottom-top\"> obscures it",
+      "children" : [ {
+        "name" : "should play the video of main",
+        "uid" : "2d9c50929ec02f20",
+        "parentUid" : "c9d57d40573fc9d7e45d6dd084434c6b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1604881540863,
+          "stop" : 1604881541561,
+          "duration" : 698
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox-82.0.2" ]
+      } ],
+      "uid" : "c9d57d40573fc9d7e45d6dd084434c6b"
+    }, {
+      "name" : "Element <button class=\"ak b bf bg bh bi bj bk bl bm bn c gl gn ky kz la lb lc\" type=\"button\"> is not clickable at point (562,581) because another element <div class=\"optanon-alert-box-bottom-top\"> obscures it",
+      "children" : [ {
+        "name" : "should play the video of amy",
+        "uid" : "aca2bdaad1886c42",
+        "parentUid" : "9b998bc3ba27c24922693facc414020d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1604881541562,
+          "stop" : 1604881541908,
+          "duration" : 346
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox-82.0.2" ]
+      }, {
+        "name" : "should play the video of Linda",
+        "uid" : "80d6654e394be5f9",
+        "parentUid" : "9b998bc3ba27c24922693facc414020d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1604881542078,
+          "stop" : 1604881542326,
+          "duration" : 248
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox-82.0.2" ]
+      } ],
+      "uid" : "9b998bc3ba27c24922693facc414020d"
+    }, {
+      "name" : "Element <button class=\"ak b bf bg bh bi bj bk bl bm bn c gl gn ky kz la lb lc\" type=\"button\"> is not clickable at point (993,581) because another element <div class=\"optanon-alert-box-bottom-top\"> obscures it",
+      "children" : [ {
+        "name" : "should play the video of summer",
+        "uid" : "fb908afafc0769b4",
+        "parentUid" : "3bbdd55df844d95a7422426bf3b37513",
+        "status" : "broken",
+        "time" : {
+          "start" : 1604881541908,
+          "stop" : 1604881542077,
+          "duration" : 169
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox-82.0.2" ]
+      }, {
+        "name" : "should play the video of Alex",
+        "uid" : "e4fe4a4daa192bf",
+        "parentUid" : "3bbdd55df844d95a7422426bf3b37513",
+        "status" : "broken",
+        "time" : {
+          "start" : 1604881542326,
+          "stop" : 1604881542505,
+          "duration" : 179
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox-82.0.2" ]
+      } ],
+      "uid" : "3bbdd55df844d95a7422426bf3b37513"
+    }, {
+      "name" : "Element <button class=\"aj ak be bf bg bh bi bj bk bl bm bn bo ct db dc dd de df dg dh di dj dk dl dm q v SiteNav_topBarButton\" type=\"button\"> is not clickable at point (1226,32) because another element <div class=\"optanon-alert-box-bottom-top\"> obscures it",
+      "children" : [ {
+        "name" : "should click on the top pane",
+        "uid" : "e09fa22097f05da6",
+        "parentUid" : "d404f7b71098b4e33956d7e2a3817c08",
+        "status" : "broken",
+        "time" : {
+          "start" : 1604881542505,
+          "stop" : 1604881542630,
+          "duration" : 125
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox-82.0.2" ]
+      } ],
+      "uid" : "d404f7b71098b4e33956d7e2a3817c08"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

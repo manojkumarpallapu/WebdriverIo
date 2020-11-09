@@ -1,0 +1,247 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "volvocars.com page",
+    "children" : [ {
+      "name" : "should have the right title",
+      "uid" : "cc9e2c0755f702ff",
+      "parentUid" : "c70e1202644fb16e6fc0a60b3115f25c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604881524755,
+        "stop" : 1604881529419,
+        "duration" : 4664
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-86.0.4240.111" ]
+    }, {
+      "name" : "should play the video of main",
+      "uid" : "b7fc6c0bcce59913",
+      "parentUid" : "c70e1202644fb16e6fc0a60b3115f25c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604881529420,
+        "stop" : 1604881573286,
+        "duration" : 43866
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-86.0.4240.111" ]
+    }, {
+      "name" : "should have the right title",
+      "uid" : "76a520725aa5bf86",
+      "parentUid" : "c70e1202644fb16e6fc0a60b3115f25c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604881531030,
+        "stop" : 1604881540862,
+        "duration" : 9832
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-82.0.2" ]
+    }, {
+      "name" : "should play the video of main",
+      "uid" : "2d9c50929ec02f20",
+      "parentUid" : "c70e1202644fb16e6fc0a60b3115f25c",
+      "status" : "broken",
+      "time" : {
+        "start" : 1604881540863,
+        "stop" : 1604881541561,
+        "duration" : 698
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-82.0.2" ]
+    }, {
+      "name" : "should play the video of amy",
+      "uid" : "aca2bdaad1886c42",
+      "parentUid" : "c70e1202644fb16e6fc0a60b3115f25c",
+      "status" : "broken",
+      "time" : {
+        "start" : 1604881541562,
+        "stop" : 1604881541908,
+        "duration" : 346
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-82.0.2" ]
+    }, {
+      "name" : "should play the video of summer",
+      "uid" : "fb908afafc0769b4",
+      "parentUid" : "c70e1202644fb16e6fc0a60b3115f25c",
+      "status" : "broken",
+      "time" : {
+        "start" : 1604881541908,
+        "stop" : 1604881542077,
+        "duration" : 169
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-82.0.2" ]
+    }, {
+      "name" : "should play the video of Linda",
+      "uid" : "80d6654e394be5f9",
+      "parentUid" : "c70e1202644fb16e6fc0a60b3115f25c",
+      "status" : "broken",
+      "time" : {
+        "start" : 1604881542078,
+        "stop" : 1604881542326,
+        "duration" : 248
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-82.0.2" ]
+    }, {
+      "name" : "should play the video of Alex",
+      "uid" : "e4fe4a4daa192bf",
+      "parentUid" : "c70e1202644fb16e6fc0a60b3115f25c",
+      "status" : "broken",
+      "time" : {
+        "start" : 1604881542326,
+        "stop" : 1604881542505,
+        "duration" : 179
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-82.0.2" ]
+    }, {
+      "name" : "should click on the top pane",
+      "uid" : "e09fa22097f05da6",
+      "parentUid" : "c70e1202644fb16e6fc0a60b3115f25c",
+      "status" : "broken",
+      "time" : {
+        "start" : 1604881542505,
+        "stop" : 1604881542630,
+        "duration" : 125
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-82.0.2" ]
+    }, {
+      "name" : "should play the video of amy",
+      "uid" : "dcad77f930e640ec",
+      "parentUid" : "c70e1202644fb16e6fc0a60b3115f25c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604881573287,
+        "stop" : 1604881580483,
+        "duration" : 7196
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-86.0.4240.111" ]
+    }, {
+      "name" : "should play the video of summer",
+      "uid" : "eddaaffee2906443",
+      "parentUid" : "c70e1202644fb16e6fc0a60b3115f25c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604881580483,
+        "stop" : 1604881587654,
+        "duration" : 7171
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-86.0.4240.111" ]
+    }, {
+      "name" : "should play the video of Linda",
+      "uid" : "63887668fbeb03fd",
+      "parentUid" : "c70e1202644fb16e6fc0a60b3115f25c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604881587654,
+        "stop" : 1604881594913,
+        "duration" : 7259
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-86.0.4240.111" ]
+    }, {
+      "name" : "should play the video of Alex",
+      "uid" : "2ae9c9f441780066",
+      "parentUid" : "c70e1202644fb16e6fc0a60b3115f25c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604881594913,
+        "stop" : 1604881602044,
+        "duration" : 7131
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-86.0.4240.111" ]
+    }, {
+      "name" : "should click on the top pane",
+      "uid" : "2801bc042fa4dcfd",
+      "parentUid" : "c70e1202644fb16e6fc0a60b3115f25c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604881602044,
+        "stop" : 1604881606208,
+        "duration" : 4164
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-86.0.4240.111" ]
+    } ],
+    "uid" : "volvocars.com page"
+  }, {
+    "name" : "performance",
+    "children" : [ {
+      "name" : "\"before all\" hook for \"getting $ performance\"",
+      "uid" : "8ac113acc0cf4983",
+      "parentUid" : "a0fcf93ddeb1d0749b7258a8891a3742",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604881524755,
+        "stop" : 1604881531937,
+        "duration" : 7182
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-86.0.4240.111" ]
+    }, {
+      "name" : "\"before all\" hook for \"getting $ performance\"",
+      "uid" : "a01ee453e89d60f",
+      "parentUid" : "a0fcf93ddeb1d0749b7258a8891a3742",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604881531323,
+        "stop" : 1604881543938,
+        "duration" : 12615
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-82.0.2" ]
+    }, {
+      "name" : "getting $ performance",
+      "uid" : "77c32e4babd9caba",
+      "parentUid" : "a0fcf93ddeb1d0749b7258a8891a3742",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604881531937,
+        "stop" : 1604881540224,
+        "duration" : 8287
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-86.0.4240.111" ]
+    }, {
+      "name" : "getting $ performance",
+      "uid" : "3d526fafc6e4fd7d",
+      "parentUid" : "a0fcf93ddeb1d0749b7258a8891a3742",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604881543938,
+        "stop" : 1604881547415,
+        "duration" : 3477
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-82.0.2" ]
+    } ],
+    "uid" : "a0fcf93ddeb1d0749b7258a8891a3742"
+  } ],
+  "name" : "packages"
+}
