@@ -1,2 +1,2 @@
 # WebdriverIo
-These is implementation of the some of the testcases for the website. 
+These is implementation of automated test cases for Volvo website. 
